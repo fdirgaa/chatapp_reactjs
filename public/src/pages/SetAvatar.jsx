@@ -24,9 +24,9 @@ const SetAvatar = () => {
     };
 
     useEffect(async () => {
-      if (!localStorage.getItem("chat-app-user")) {
-        navigate("/login");
-      }
+        if (!localStorage.getItem("chat-app-user")) {
+            navigate("/login");
+        }
     }, [])
     
 
